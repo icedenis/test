@@ -4,7 +4,7 @@ PersonalDB is a demo application built with the [Blazor](https://blazor.net) fra
 
 [PersonalDB REST API](http://localhost:8888/swagger/index.html) - A REST API for CRUD with non-read API calls secured with JWT. The API includes a call to authenticate users and receive a JWT bearer token.
 
-* [Bitbucket Source Code Repository](https://rad@git.app.corp.dsa.de/scm/dsapersdb/dsa-personaldb.git) - All source code is stored in the Bitbucket repository, which is where you currently find yourself.
+* [Bitbucket Source Code Repository](https://git.app.corp.dsa.de/projects/DSAPERSDB) - All source code is stored in the Bitbucket repository, which is where you currently find yourself.
 
 # Get started
 
@@ -69,6 +69,3 @@ docker kill CONTAINER_ID
 ```
 docker rmi -f imageid
 ```
-
-# Example Screenshots
-
