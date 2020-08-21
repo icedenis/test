@@ -6,17 +6,24 @@ PersonalDB is a demo application built with the [Blazor](https://blazor.net) fra
 
 * [Bitbucket Source Code Repository](https://rad@git.app.corp.dsa.de/scm/dsapersdb/dsa-personaldb.git) - All source code is stored in the Bitbucket repository, which is where you currently find yourself.
 
+# Get started
+
+* Install the Preview edition of [Visual Studio 2019](https://visualstudio.microsoft.com/de/vs/preview/) (Community, Professional, and Enterprise Editions are all supported) with the ASP.NET and web development workload enabled. PersonalDB works with all editions of Visual Studio from Community to Enterprise. If you do not have a SQL Server available already and you wish to use LocalDB for development, you must ......
+
+* To get started with [Blazor](https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro) , follow the instructions in the Blazor Get Started documentation.
 
 # Features
 
 * Docker container generation as a single deployable Docker image
-* Dashboard page
+* Dashboard page- shows the last 4 days changes made on the users and personals and pie charts shows the personal by department,fulltime and  gender
+* Edit page - add/edit personal uses FluentValidation and Toastr-style notifications.
 * Entity lists with pagination and search
 * Modal data entry forms with validations
 * Complex data entry with object graph validations
 * Javascript Web Token (JWT) authentication and validation.
 * Automation of Azure Infrastructure Setup
 * Typeahead for entity lookup on modal data entry screens (preview functionality)
+
 
 # Open Source Used
 
@@ -63,4 +70,5 @@ docker kill CONTAINER_ID
 docker rmi -f imageid
 ```
 
+# Example Screenshots
 
