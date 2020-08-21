@@ -1,4 +1,4 @@
-# PersonalDB  DSA Daten- und Systemtechnik GmbH Aachen
+# PersonalDB
 
 PersonalDB is a demo application built with the [Blazor](https://blazor.net) framework using the client-side hosting model with WebAssembly in the browser invoking .NET Core REST APIs secured by a JWT service.. For authenticated pages and APIs, use the credentials (SYSADM / dsa).
 
